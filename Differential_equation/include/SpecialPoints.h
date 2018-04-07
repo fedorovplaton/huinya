@@ -24,3 +24,8 @@ void set_y1(SpecialPoint *sPoint, double y1);
 void set_y2(SpecialPoint *sPoint, double y2);
 void set_y3(SpecialPoint *sPoint, double y3);
 void set_numbers(SpecialPoint *sPoint, int numbers);
+
+int solve_cubic_eqation(const double A, const double B, const double C, const double D, SpecialPoint *sPoint);
+int solve_square_eqation( const double A, const double B, const double C, SpecialPoint *sPoint);
+int solve_linear_eqation( const double A, const double B, SpecialPoint *sPoint);
+

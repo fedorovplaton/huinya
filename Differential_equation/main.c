@@ -1,7 +1,6 @@
 #include <stdio.h>
 #include <unistd.h>
 #include "include/Logic.h"
-#include "gtest/gtest.h"
 
 
 void start(char *input, char *output)

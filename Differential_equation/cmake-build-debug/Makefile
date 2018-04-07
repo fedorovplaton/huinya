@@ -123,32 +123,6 @@ Differential_equation/fast:
 	$(MAKE) -f CMakeFiles/Differential_equation.dir/build.make CMakeFiles/Differential_equation.dir/build
 .PHONY : Differential_equation/fast
 
-#=============================================================================
-# Target rules for targets named gtest_main
-
-# Build rule for target.
-gtest_main: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 gtest_main
-.PHONY : gtest_main
-
-# fast build rule for target.
-gtest_main/fast:
-	$(MAKE) -f googletest/CMakeFiles/gtest_main.dir/build.make googletest/CMakeFiles/gtest_main.dir/build
-.PHONY : gtest_main/fast
-
-#=============================================================================
-# Target rules for targets named gtest
-
-# Build rule for target.
-gtest: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 gtest
-.PHONY : gtest
-
-# fast build rule for target.
-gtest/fast:
-	$(MAKE) -f googletest/CMakeFiles/gtest.dir/build.make googletest/CMakeFiles/gtest.dir/build
-.PHONY : gtest/fast
-
 main.o: main.c.o
 
 .PHONY : main.o
@@ -311,6 +285,33 @@ src/Structures.c.s:
 	$(MAKE) -f CMakeFiles/Differential_equation.dir/build.make CMakeFiles/Differential_equation.dir/src/Structures.c.s
 .PHONY : src/Structures.c.s
 
+src/Test_SpecialPoints.o: src/Test_SpecialPoints.c.o
+
+.PHONY : src/Test_SpecialPoints.o
+
+# target to build an object file
+src/Test_SpecialPoints.c.o:
+	$(MAKE) -f CMakeFiles/Differential_equation.dir/build.make CMakeFiles/Differential_equation.dir/src/Test_SpecialPoints.c.o
+.PHONY : src/Test_SpecialPoints.c.o
+
+src/Test_SpecialPoints.i: src/Test_SpecialPoints.c.i
+
+.PHONY : src/Test_SpecialPoints.i
+
+# target to preprocess a source file
+src/Test_SpecialPoints.c.i:
+	$(MAKE) -f CMakeFiles/Differential_equation.dir/build.make CMakeFiles/Differential_equation.dir/src/Test_SpecialPoints.c.i
+.PHONY : src/Test_SpecialPoints.c.i
+
+src/Test_SpecialPoints.s: src/Test_SpecialPoints.c.s
+
+.PHONY : src/Test_SpecialPoints.s
+
+# target to generate assembly for a file
+src/Test_SpecialPoints.c.s:
+	$(MAKE) -f CMakeFiles/Differential_equation.dir/build.make CMakeFiles/Differential_equation.dir/src/Test_SpecialPoints.c.s
+.PHONY : src/Test_SpecialPoints.c.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -320,8 +321,6 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... Differential_equation"
-	@echo "... gtest_main"
-	@echo "... gtest"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
@@ -340,6 +339,9 @@ help:
 	@echo "... src/Structures.o"
 	@echo "... src/Structures.i"
 	@echo "... src/Structures.s"
+	@echo "... src/Test_SpecialPoints.o"
+	@echo "... src/Test_SpecialPoints.i"
+	@echo "... src/Test_SpecialPoints.s"
 .PHONY : help
 
 

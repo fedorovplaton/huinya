@@ -5,6 +5,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/Differential_equation.dir/src/Logic.c.o"
   "CMakeFiles/Differential_equation.dir/src/Files.c.o"
   "CMakeFiles/Differential_equation.dir/src/SpecialPoins.c.o"
+  "CMakeFiles/Differential_equation.dir/src/Test_SpecialPoints.c.o"
   "Differential_equation.pdb"
   "Differential_equation"
 )

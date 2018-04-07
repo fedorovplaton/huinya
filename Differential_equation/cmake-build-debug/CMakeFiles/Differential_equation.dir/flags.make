@@ -6,5 +6,5 @@ C_FLAGS = -g   -std=gnu11
 
 C_DEFINES = 
 
-C_INCLUDES = -I/Users/platon/Documents/git/Parallelus_3/Differential_equation/googletest/include 
+C_INCLUDES = 
 

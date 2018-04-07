@@ -3,9 +3,6 @@ project(Differential_equation C)
 
 set(CMAKE_C_STANDARD 11)
 
-add_subdirectory(googletest)
-include_directories(googletest/include)
-
 add_executable(Differential_equation main.c
                 include/Structures.h
                 include/Analysis.h
@@ -16,5 +13,4 @@ add_executable(Differential_equation main.c
                 src/Analysis.c
                 src/Logic.c
                 src/Files.c
-                src/SpecialPoins.c)
-target_link_libraries(Differential_equation)
+                src/SpecialPoins.c include/Minunit.h include/Test_SpecialPoins.h src/Test_SpecialPoints.c)
