@@ -1,3 +1,0 @@
-language: C
-os: osx
-script: make
