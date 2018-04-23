@@ -1,0 +1,3 @@
+/Users/platon/Documents/git/16th-problem/solver/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/platon/Documents/git/16th-problem/solver/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/platon/Documents/git/16th-problem/solver/cmake-build-debug/CMakeFiles/solver.dir

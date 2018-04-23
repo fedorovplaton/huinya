@@ -1,3 +1,0 @@
-/Users/platon/Documents/git/Parallelus_3/Differential_equation/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-/Users/platon/Documents/git/Parallelus_3/Differential_equation/cmake-build-debug/CMakeFiles/edit_cache.dir
-/Users/platon/Documents/git/Parallelus_3/Differential_equation/cmake-build-debug/CMakeFiles/Differential_equation.dir
